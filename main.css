@@ -1,0 +1,21 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(198, 81, 100);
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px;
+  width: 1280px;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
+}
